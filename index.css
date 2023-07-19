@@ -1,4 +1,4 @@
-.container{
+.container {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
@@ -30,13 +30,11 @@
   background: linear-gradient(90deg, #ff42a5, #ff42a5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0px 0px 100px 0px ;
 }
 .gamer {
   position: absolute;
   top: 0;
   left: 106.04px;
-  
 }
 .gamer-parent,
 .group-item {
@@ -45,7 +43,6 @@
   left: 0;
   width: 86.04px;
   height: 40px;
-
 }
 .gamer-parent {
   top: 1px;
@@ -120,7 +117,9 @@
   text-align: center;
   font-size: var(--font-size-26xl);
 }
-.pngwing-1-icon {
+.pngwing-1-icon,
+.pngwing-2-icon,
+.pngwing-3-icon {
   position: absolute;
   top: 446px;
   left: 358.55px;
@@ -128,7 +127,8 @@
   height: 235.02px;
   object-fit: cover;
 }
-.pngwing-1-icon {
+.pngwing-1-icon,
+.pngwing-2-icon {
   top: 468px;
   left: 44px;
   width: 213px;
